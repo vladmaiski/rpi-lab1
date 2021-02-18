@@ -5,80 +5,142 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>neutronMail</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Fonts/font-awesome.min.css">
 </head>
 <body>
-    <div class="main-wrapper">
-        <div class = "logo">
-            <span>neutronMail</span>
-        </div>
-        <div class="menu">
-            <p>About</p>
-            <p>Security</p>
-            <p>Blog</p>
-            <p>Careers</p>
-            <p>Support</p>
-            <p>Donate</p>
-        </div>
-        <div class="auth-block">
-
-        </div>
-        <div class="lang-selector">
-            //TODO
-        </div>
-        <div> //TODO IMAGE
-            <span>Secure Email Communication</span>
-            <p>Based in Somewhere</p>
-        </div>
-        <div class="taglines">
-            <div>
-                <img src="" alt="">
-                <span>Swiss Privacy</span>
-                <p>Data Security and Neutrality</p>
-                <article>NeutronMail is incorporated in Somewhere and all our servers are located in Switzerland. This means all user data is
-                    protected by strict Swiss privacy laws.</article>
-            </div>
-            <div>
-                <img src="" alt="">
-                <span>Double Encryption</span>
-                <p>Automatic Email Security </p>
-                <article>All emails are secured automatically with end-to-end encryption. This means even we cannot decrypt and read your emails. As a result, your encrypted emails cannot
-                    be shared with third parties.</article>
-            </div>
-            <div>
-                <img src="" alt="">
-                <span>Anonymous Email</span>
-                <p>Protect Your Privacy</p>
-                <article>No personal information is required to create your secure email account. By default, we do not keep any IP logs which can be linked to your anonymous email account. Your privacy comes first.</article>
-            </div>
-        </div>
-        <div class="huiznaet">
-            <span>Physical Security</span>
-            <p>NeutronMail's infrastructure resides in Europe's most secure datacenter, underneath 1000 meters of solid rock.</p>
-            <p></p>
-        </div>
-        <div>
-            //TODO lean more will be here
-        </div>
-        <div class="sponsors-images">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
-        <div class="">marketplace-advertisement-conteiner
-            <div class="quote">
-                <div>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+    <div class="top-container">
+        <header>
+            <p class="logo-name">
+                neutron<span>Mail</span>
+            </p>
+            <div class="menu-and-auth">
+                <div class="menu">
+                    <a href="">About</a>
+                    <a href="">Security</a>
+                    <a href="">Blog</a>
+                    <a href="">Careers</a>
+                    <a href="">Support</a>
+                    <a href="">Donate</a>
                 </div>
-                <article>A new email service being developed by a group from MIT and CERN promises to bring secure,
-                    encrypted email to the masses and keep sensitive information away from prying eyes.</article>
-                <p>— Boston Herald</p>
+                <div class="auth-block">
+                    <button class="log-in-button"><i class="fa fa-sign-in" id="log-in-icon" aria-hidden="true"></i>Log in</button>
+                    <button class="sign-up-button">Sign up</button>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="lang-selector">
+            <a href="" class="active">English</a>
+            /
+            <a href="">French</a>
+            /
+            <a href="">Italian</a>
+            /
+            <a href="">Polish</a>
+        </div>
+        <div class="invite-container">
+            <p class="invite-text-header">Secure Email Communication</p>
+            <p class="invite-text-quote">Based in <span>Somewhere</span></p>
+            <div class="invite-buttons">
+                <button class="color-change-button" id="create-account-button">Create account</button>
+                <button class="marketplace-button"></button>
+                <button class="marketplace-button"></button>
             </div>
         </div>
     </div>
+    <div class="taglines">
+        <div>
+            <img src="" alt="">
+            <span>Swiss Privacy</span>
+            <p>Data Security and Neutrality</p>
+            <article>NeutronMail is incorporated in Somewhere and all our servers are located in Switzerland. This means
+                all user data is
+                protected by strict Swiss privacy laws.
+            </article>
+        </div>
+        <div>
+            <img src="" alt="">
+            <span>Double Encryption</span>
+            <p>Automatic Email Security </p>
+            <article>All emails are secured automatically with end-to-end encryption. This means even we cannot decrypt
+                and read your emails. As a result, your encrypted emails cannot
+                be shared with third parties.
+            </article>
+        </div>
+        <div>
+            <img src="" alt="">
+            <span>Anonymous Email</span>
+            <p>Protect Your Privacy</p>
+            <article>No personal information is required to create your secure email account. By default, we do not keep
+                any IP logs which can be linked to your anonymous email account. Your privacy comes first.
+            </article>
+        </div>
+    </div>
+    <div class="huiznaet">
+        <span>Physical Security</span>
+        <p>NeutronMail's infrastructure resides in Europe's most secure datacenter, underneath 1000 meters of solid
+            rock.</p>
+        <p></p>
+    </div>
+    <div>
+        //TODO lean more will be here
+    </div>
+    <div class="sponsors-images">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+    </div>
+    <div class="">marketplace-advertisement-container
+        <div class="quote">
+            <div>
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+            <article>A new email service being developed by a group from MIT and CERN promises to bring secure,
+                encrypted email to the masses and keep sensitive information away from prying eyes.
+            </article>
+            <p>— Boston Herald</p>
+        </div>
+        <div class="marketplace-info">
+            <img src="" alt="">
+            <h1>Any device, anywhere</h1>
+            <article>The NeutronMail inbox is optimized for productivity. Each detail within our secure email service is
+                optimized to help you better read, organize, and send email.
+            </article>
+            <<img src="" alt="">
+            <img src="" alt="">
+        </div>
+    </div>
+    <div class="subscription">
+        <h1>Privacy is a fundamental human right.</h1>
+        <p>Your support helps us to protect privacy world-wide.</p>
+        <button class="color-change-button">Upgrade to Paid Plan</button>
+        <button class="color-change-button">$ Donate</button>
+    </div>
+    <div class="sponsors-bottom">
+        <span>Those, who help us secure your privacy</span>
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+    </div>
+    <footer>
+        <div class="contact-info">
+            <p>General: contact@neutronmail.ch <br>
+                Media: media@neutronmail.ch <br>
+                Security: security@neutronmail.ch</p>
+            <p>For support inquiries, please visit <br>
+                neutronmail.com/support</p>
+        </div>
+
+    </footer>
 </body>
 </html>

@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  color: #858688;
 }
 
 a {
@@ -10,6 +13,72 @@ a {
 button {
   border: none;
   outline: none;
+}
+
+.top-container {
+  margin-top: 75px;
+  margin-bottom: 130px;
+  height: 800px;
+  width: 1800px;
+  background-image: url(./Res/top-mountains.png);
+}
+
+header {
+  margin-bottom: 15px;
+  padding: 0 200px 0 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-name {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.logo-name span {
+  color: #5b4295;
+}
+
+.menu-and-auth {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 410px;
+  margin-right: 55px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.menu a {
+  color: #454545;
+}
+
+.log-in-button {
+  background: white;
+  cursor: pointer;
+  width: 95px;
+  height: 40px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #454545;
+}
+
+#log-in-icon {
+  color: #582c7e;
+  margin-right: 6px;
 }
 
 .sign-up-button {
@@ -23,8 +92,9 @@ button {
     rgba(88, 44, 126, 1) 0%,
     rgba(98, 120, 206, 1) 100%
   );
+  font-family: 'Titillium Web', sans-serif;
   font-size: 16px;
-  font-weight: 550;
+  font-weight: 600;
   box-shadow: 0px 13px 21px 0px rgba(20, 80, 204, 0.28),
     0px 13px 21px 0px rgba(0, 0, 0, 0.15), 0px 3px 3px 0px rgba(0, 0, 0, 0.17),
     0px 4px 16px 0px rgba(0, 0, 0, 0.09), 0px 3px 9px 0px rgba(0, 0, 0, 0.09);
@@ -36,14 +106,30 @@ button {
   box-shadow: none;
 }
 
+.lang-selector {
+  padding-left: 200px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lang-selector .active {
+  font-weight: 700;
+  border-bottom: 1px solid #959595;
+  transform: translateY(1px);
+}
+
 .color-change-button {
   cursor: pointer;
-  width: 245px;
-  height: 56px;
-  border-radius: 28px;
   color: white;
-  font-size: 16px;
-  font-weight: 550;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
   background: linear-gradient(
     135deg,
     rgba(98, 107, 149, 1) 0%,
@@ -82,4 +168,44 @@ button {
     border-radius: 23px;
     background-color: #5f2966;
     opacity: 0.8;
+}
+
+.invite-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 175px;
+}
+
+.invite-text-header {
+  font-family: 'Titillium Web', sans-serif;
+  color: #454545;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.invite-text-quote {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.invite-container p span {
+  color: #fc2028;
+}
+
+.invite-buttons {
+  margin-top: 100px;
+  width: 380px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#create-account-button {
+  width: 245px;
+  height: 56px;
+  border-radius: 28px;
 }
