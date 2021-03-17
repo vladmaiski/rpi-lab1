@@ -284,7 +284,20 @@ header {
   left: -45px;
   top: -140px;
   height: 230px;
-  border-left: 2px solid #b9b9b9;
+  border-left: 1px solid #b9b9b9;
+}
+
+#key-banner {
+  position: relative;
+}
+
+#key-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -240px;
+  border-top: 1px solid #b9b9b9;
+  width: 180px;
 }
 
 .security-advertise {
@@ -297,6 +310,9 @@ header {
   justify-content: center;
   align-items: center;
   background-color: white;
+  position: relative;
+  left: 980px;
+  z-index: 2;
 }
 
 .security-advertise p {
@@ -308,12 +324,28 @@ header {
 .phys-sec-block {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
-  margin-top: 135px;
-  width: 1105px;
+  box-sizing: border-box;
+  margin-top: 125px;
+  margin-bottom: 30px;
+  width: 1150px;
+  padding-right: 45px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+  position: relative;
+}
+
+.phys-sec-block::after {
+  right: 0;
+  bottom: -62px;
+  content: "";
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  border-right: 1px solid #b9b9b9;
+  border-bottom: 1px solid #b9b9b9;
+  z-index: 1;
 }
 
 .phys-sec-block p {
@@ -324,6 +356,7 @@ header {
 .phys-sec-block article {
   font-size: 24px;
   text-align: right;
+  line-height: 25px;
 }
 
 .phys-sec-block article span {
