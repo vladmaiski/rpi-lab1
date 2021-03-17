@@ -185,7 +185,7 @@ header {
 
 .invite-text-header {
   font-family: 'Titillium Web', sans-serif;
-  color: #454545;
+  color: #636363;
   font-size: 60px;
   font-weight: 600;
 }
@@ -194,6 +194,7 @@ header {
   font-family: 'Titillium Web', sans-serif;
   font-size: 36px;
   font-weight: 400;
+  color: #636363;
 }
 
 .invite-container p span {
@@ -237,4 +238,21 @@ header {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+}
+
+.security-advertise {
+  width: 335px;
+  height: 60px;
+  border-radius: 30px;
+  border: 1px solid #b9b9b9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.security-advertise p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
 }
