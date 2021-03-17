@@ -416,3 +416,85 @@ header {
   height: 11px;
   cursor: pointer;
 }
+
+.subscription {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0 80px 0;
+  position: relative;
+}
+
+.subscription::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1400px;
+  border-top: 1px solid #b9b9b9;
+}
+
+.subscription::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 1400px;
+  border-top: 1px solid #b9b9b9;
+}
+
+.subscription h1 {
+  color: #535353;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.subscription p {
+  color: #7c7c7c;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+.subscription-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-cloud-upload {
+  color:white;
+  margin-right: 10px;
+}
+
+.fa-usd {
+  color: white;
+  margin-right: 10px;
+}
+
+#upgrade-button {
+  height: 56px;
+  width: 246px;
+  border-radius: 28px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 50px;
+}
+
+#donate-button {
+  height: 56px;
+  border-radius: 28px;
+  width: 166px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
