@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
 
+@font-face {
+  font-family: "Malaga";
+  src: url("./Fonts/Malaga/font.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -361,4 +368,51 @@ header {
 
 .phys-sec-block article span {
   color: #d65252;
+}
+
+.sponsors-images {
+  margin-left: 20px;
+  margin-bottom: 60px;
+}
+
+.sponsors-images img {
+  width: 950px;
+  height: 65px;
+}
+
+.quote {
+  font-family: "Malaga", serif;
+  padding-left: 365px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.quote-text article {
+  line-height: 28px;
+  color: black;
+  font-size: 24px;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+.quote-text p {
+  font-size: 16px;
+  color: #808080;
+}
+
+.slider-dots {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.slider-dots img {
+  margin-bottom: 10px;
+  width: 11px;
+  height: 11px;
+  cursor: pointer;
 }
