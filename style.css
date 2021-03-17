@@ -544,3 +544,16 @@ header {
   font-size: 18px;
   font-weight: 600;
 }
+
+.bottom-sponsors p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 1145px;
+}
+
+.bottom-sponsors img {
+  height: 90px;
+  width: 970px;
+  margin-left: 460px;
+}
