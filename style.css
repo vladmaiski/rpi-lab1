@@ -10,6 +10,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  width: 1800px;
+}
+
 button {
   border: none;
   outline: none;
@@ -212,4 +216,25 @@ header {
   font-family: 'Titillium Web', sans-serif;
   font-size: 18px;
   font-weight: 700;
+}
+
+.taglines {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 240px 0 325px;
+}
+
+.taglines .banner {
+  width: 360px;
+}
+
+.taglines .banner-header {
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
