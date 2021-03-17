@@ -169,6 +169,15 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.marketplace-button:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(54, 186, 225, 1) 0%,
+    rgba(94, 123, 234, 1) 100%
+  );
 }
 
 .fa-apple {
@@ -266,6 +275,19 @@ header {
   font-size: 14px;
 }
 
+#encryption-banner {
+  position: relative;
+}
+
+#encryption-banner::before {
+  content: "";
+  position: absolute;
+  left: -45px;
+  top: -140px;
+  height: 230px;
+  border-left: 2px solid #b9b9b9;
+}
+
 .security-advertise {
   width: 335px;
   height: 60px;
@@ -275,6 +297,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
 }
 
 .security-advertise p {
