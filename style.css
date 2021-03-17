@@ -16,7 +16,7 @@ button {
 }
 
 .top-container {
-  margin-top: 75px;
+  margin-top: 80px;
   margin-bottom: 130px;
   height: 800px;
   width: 1800px;
@@ -101,11 +101,6 @@ header {
   transition: 0.05s box-shadow ease-in-out;
 }
 
-.sign-up-button:active {
-  transition: 0.1s box-shadow ease-in-out;
-  box-shadow: none;
-}
-
 .lang-selector {
   padding-left: 200px;
   font-family: 'Titillium Web', sans-serif;
@@ -127,9 +122,6 @@ header {
 .color-change-button {
   cursor: pointer;
   color: white;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
   background: linear-gradient(
     135deg,
     rgba(98, 107, 149, 1) 0%,
@@ -208,4 +200,7 @@ header {
   width: 245px;
   height: 56px;
   border-radius: 28px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
 }
