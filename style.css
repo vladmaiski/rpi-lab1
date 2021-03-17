@@ -160,6 +160,15 @@ header {
     border-radius: 23px;
     background-color: #5f2966;
     opacity: 0.8;
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-apple {
+  color: white;
 }
 
 .invite-container {
