@@ -226,6 +226,8 @@ header {
   justify-content: space-between;
   width: 100%;
   padding: 0 240px 0 325px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
 }
 
 .taglines .banner {
@@ -238,6 +240,30 @@ header {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+}
+
+
+.banner-header {
+  height: 50px;
+}
+
+.banner-title {
+  margin-left: 15px;
+}
+
+.banner-title span {
+  line-height: 4px;
+  font-size: 30px;
+  color: #555555;
+}
+
+.banner-title p {
+  font-size: 18px;
+  height: 18px;
+}
+
+.banner-info {
+  font-size: 14px;
 }
 
 .security-advertise {
