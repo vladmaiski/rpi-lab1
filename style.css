@@ -676,6 +676,10 @@ header {
   color: #5c5c5c;
 }
 
+.links .general-info ul li {
+  cursor: pointer;
+}
+
 footer {
   height: 45px;
   margin-bottom: 25px;
