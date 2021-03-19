@@ -235,6 +235,19 @@ header {
   font-weight: 700;
 }
 
+.social-invite {
+  position: absolute;
+  margin-top: -295px;
+  display: flex;
+  flex-direction: column;
+  width: 20px;
+  margin-left: 1750px;
+}
+
+.social-invite img {
+  margin-top: 18px;
+}
+
 .taglines {
   box-sizing: border-box;
   display: flex;
