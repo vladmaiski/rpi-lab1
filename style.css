@@ -546,6 +546,10 @@ header {
   font-weight: 600;
 }
 
+.bottom-sponsors {
+  margin-bottom: 160px;
+}
+
 .bottom-sponsors p {
   font-family: 'Titillium Web', sans-serif;
   font-size: 14px;
@@ -557,4 +561,108 @@ header {
   height: 90px;
   width: 970px;
   margin-left: 460px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin-left: 200px;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.links::after {
+  content: "";
+  border-right: 1px solid #b9b9b9;
+  position: absolute;
+  bottom: 7px;
+  right: 0;
+  height: 452px;
+}
+
+.links .contact-info {
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+  font-weight: 400; 
+  color: #5c5c5c;
+  position: relative;
+}
+
+.links .contact-info::after {
+  content: "";
+  border-left: 1px solid #b9b9b9;
+  position: absolute;
+  bottom: 0;
+  left: -20px;
+  height: 130px;
+}
+
+.links .contact-info span {
+  font-weight: 600;
+}
+
+.links .contact-info span.site-info-underlined {
+  border-bottom: 2px solid #d6d6d6;
+  box-sizing: border-box;
+}
+
+.links .general-info {
+  width: 525px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.links .general-info section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.links .general-info section#company-section {
+  position: relative;
+}
+
+.links .general-info section#company-section::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: -25px;
+  border-right: 1px solid #b9b9b9;
+  height: 325px;
+}
+
+.links .general-info h1 {
+  margin-bottom: 30px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+  font-weight: 600; 
+  color: #5c5c5c;
+}
+
+.links .general-info ul {
+  list-style-position: inside;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+  font-weight: 400; 
+  list-style-type: none;
+  color: #5c5c5c;
+}
+
+footer {
+  height: 45px;
+  margin-bottom: 30px;
 }
