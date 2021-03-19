@@ -582,7 +582,7 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 1200px;
-  margin-left: 200px;
+  margin-left: 220px;
   box-sizing: border-box;
   position: relative;
   margin-bottom: 80px;
@@ -655,7 +655,7 @@ header {
   top: 0;
   right: -25px;
   border-right: 1px solid #b9b9b9;
-  height: 325px;
+  height: 315px;
 }
 
 .links .general-info h1 {
@@ -677,5 +677,29 @@ header {
 
 footer {
   height: 45px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding-left: 200px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 12px;
+  font-weight: 400; 
+}
+
+footer .social-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 365px;
+  margin-bottom: 15px;
+}
+
+footer .social-links p {
+  cursor: pointer;
+  line-height: 10px;
+  border-bottom: 1px solid #b9b9b9;
 }
