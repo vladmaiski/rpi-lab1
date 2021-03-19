@@ -703,3 +703,9 @@ footer .social-links p {
   line-height: 10px;
   border-bottom: 1px solid #b9b9b9;
 }
+
+.bottom-container {
+  background:
+  url("Res/gray-background.png")
+  top -20px  center / 3600px 2200px;
+}
